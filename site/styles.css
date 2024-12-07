@@ -1,0 +1,154 @@
+/* Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  body {
+    background-color: #f7f8fa;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  
+  /* Produtos */
+  .produtos {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 2;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+  }
+  
+  .produto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .adicionar-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .adicionar-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Carrinho */
+  .carrinho {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carrinho ul {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .carrinho ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .finalizar-btn {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .finalizar-btn:hover {
+    background-color: #E64A19;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .carrinho ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .carrinho ul li button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carrinho ul li button:hover {
+    background-color: #E64A19;
+  }
+  
+  

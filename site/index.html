@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>🛒 Loja Simples</h1>
+  </header>
+
+  <main class="container">
+    <!-- Produtos -->
+    <section class="produtos">
+      <h2>Produtos Disponíveis</h2>
+      <div class="produto">
+        <img src="https://via.placeholder.com/150/4CAF50/ffffff?text=Produto+1" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>Preço: R$ 50,00</p>
+        <button class="adicionar-btn" data-produto="Produto 1" data-preco="50">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/150/2196F3/ffffff?text=Produto+2" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>Preço: R$ 30,00</p>
+        <button class="adicionar-btn" data-produto="Produto 2" data-preco="30">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/150/FF5722/ffffff?text=Produto+3" alt="Produto 3">
+        <h3>Produto 3</h3>
+        <p>Preço: R$ 70,00</p>
+        <button class="adicionar-btn" data-produto="Produto 3" data-preco="70">Adicionar ao Carrinho</button>
+      </div>
+    </section>
+
+    <!-- Carrinho -->
+    <section class="carrinho">
+      <h2>Seu Carrinho</h2>
+      <ul id="lista-carrinho"></ul>
+      <p id="total" class="total">Total: R$ 0,00</p>
+      <button id="finalizar-compra" class="finalizar-btn">Finalizar Compra</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Loja Simples. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

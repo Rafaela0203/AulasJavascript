@@ -6,7 +6,7 @@ let btn = document.getElementById("btnChute");
 
 function exibirTextoNaTela(texto){
     let campo = document.getElementById("texto");
-    campo.innerHTML = texto;
+    campo.textContent = texto;
 }
 
 function exibirMensagemInicial(){

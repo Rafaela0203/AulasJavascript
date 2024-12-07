@@ -1,7 +1,4 @@
-
-
-let botaoCalcular = document.getElementById(btn_calcular);
-
+// let botaoCalcular = document.getElementById(btn_calcular);
 
 function calculandoIMC(){
     let peso = document.getElementById("peso").value;
